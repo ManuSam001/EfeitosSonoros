@@ -1,7 +1,7 @@
 :root {
-  --cinza: #ff0000;
-  --vermelha: #ff9100;
-  --vermelha-escura: #fbff00;
+  --cinza: #ffffff;
+  --vermelha: rgb(255, 255, 255);
+  --vermelha-escura: #ffffff;
   --branca: #ffffff;
   --luz: rgb(0, 217, 255);
 }
