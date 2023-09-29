@@ -1,0 +1,1 @@
+document.querySelector('.tecla_som_XD').play();
