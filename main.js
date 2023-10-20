@@ -19,9 +19,11 @@ function TocaSomOMAGAH (){
 //chamada ou inovação da função TocaSomOMAGAH ao clicar no botão
 document.querySelector('.tecla_OMAGAH').onclick = TocaSomOMAGAH;
 
-//declaração/criação de função TocaSomBRUH
+//Declaração/criação de função TocaSomBRUH
 function TocaSomBRUH (){
     document.querySelector('#som_tleca_BRUH').play();
 }
 //chamada ou inovação da funçaõ TocaSomBRUH ao clicar no botão
 document.querySelector('.tecla_BRUH').onclick = TocaSomBRUH;
+
+//
