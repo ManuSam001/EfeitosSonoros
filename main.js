@@ -1,4 +1,4 @@
-//declaração/criação de função tocaSomXD
+//Declaração/criação de função tocaSomXD
 function tocaSomXD (){
     document.querySelector('#som_tecla_XD').play();
 }
