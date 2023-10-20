@@ -3,7 +3,7 @@ function tocaSomXD (){
     document.querySelector('#som_tecla_XD').play();
 }
 //chamada ou inovação da função TocaSomXD ao clicar no botão
-document.querySelector('.tecla_pom').onclick = tocaSomXD;
+document.querySelector('.tecla_XD').onclick = tocaSomXD;
 
 //Declaração/criação da função TocaSomAAAUGH
 function TocaSomAAAUGH (){
@@ -26,4 +26,14 @@ function TocaSomBRUH (){
 //chamada ou inovação da funçaõ TocaSomBRUH ao clicar no botão
 document.querySelector('.tecla_BRUH').onclick = TocaSomBRUH;
 
-//
+//Declaração/criação da função TocaSom!!
+function TocaSom!! (){
+    document.querySelector('#som_tecla_!!').play
+}
+//chamada ou inovação da função TocaSom!! ao clicar no botão
+document.querySelector('.tecla_!!').onclick = TocaSom!!
+
+//Declaração/criação de função TocaSomCAVALO
+function TocaSomCAVALO (){
+    document.querySelector('')
+}
