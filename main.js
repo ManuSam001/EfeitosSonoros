@@ -4,14 +4,11 @@ function tocaSomXD (idElementoAudio) {
 }
 //criando a referências contantes listaDeTeclas e buscando a classe coletiva.tecla
 const listaDeTeclas = document.querySelectorAll('.tecla');
-
-let contador =0;
-while(contador < listaDeTeclas.length){
-    const efeito = listaDeTeclas [contador].classList[1];
-    const idAudio = "#som_" + efeito;
-    listaDeTeclas[contador].onclick = function(){
-        tocaSom(idAudio);
+//criaçõa da repetição "while" e trocado pelo "for" com variavel,condição e incremento
+for(let contador = 0; contador < listaDeTeclas.length); contador++){
+    const tecla = listaDeTeclas [contador]; //guarda o contador da lista
+    const efeito = teclas.classList[1];   //chama o 2° item classe individual do som
+    const idAudio = `#som_${efeito};    //utiliza a junção template string  ${ }
+    teclas.onclick = function(){       //função anônima auxiliar para chamar tocaSom
+        tocaSom(idAudio);         //chamada da função tocaSom com parâmetro idAudio
     }
-    contador = contador + 1;
-    console.log(contador);
-}
