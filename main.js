@@ -13,9 +13,11 @@ for(let contador = 0; contador < listaDeTeclas.length; contador++){
         tocaSomXD(idAudio);         //chamada da função tocaSom com parâmetro idAudio
     }
     teclas.onkeydown = function(){
+       if(evento.code != 'tab'){
         teclas.classList.add('ativa');
+      }
     }
-    teclas.onkeydown = function(){
+    teclas.onkeyup = function(){
         teclas.classList.remove('ativa');
     }
 }
